@@ -32,5 +32,6 @@ let age=36;
 console.log(age);
 
 //<--- assigning variable
-//let fruit;
-//fruit ="apple";
+let fruit;
+fruit ="apple";
+console.log(fruit);
