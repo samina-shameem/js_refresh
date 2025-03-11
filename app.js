@@ -71,4 +71,8 @@ console.log(youtubChannel);
     
   let num1=10676767653333;//we assign value of negative is just fine, 
   console.log(num1);
-  
+
+  /*type of number */
+
+  let num2=10.33;//
+  console.log(typeof num2);//it shown what is this ,this number.
