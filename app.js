@@ -74,5 +74,14 @@ console.log(youtubChannel);
 
   /*type of number */
 
-  let num2=10.33;//
+  let num2=23.8;//
   console.log(typeof num2);//it shown what is this ,this number.
+  
+  /*Basic Math */
+  console.log(2+2);
+  console.log(8-2);
+  console.log(100%12);
+  console.log(2*12);
+  console.log(22/6);
+  console.log(2-22);
+  console.log(50%100);
