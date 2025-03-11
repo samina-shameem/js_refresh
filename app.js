@@ -65,3 +65,10 @@ console.log(youtubChannel);
   console.log(whatDoYouWannaBecomeInYourLife);
   console.log(gender);
   console.log(twitterHandle);
+
+  //primitive Types
+  /*number */
+    
+  let num1=10676767653333;//we assign value of negative is just fine, 
+  console.log(num1);
+  
