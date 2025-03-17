@@ -85,3 +85,18 @@ console.log(youtubChannel);
   console.log(22/6);
   console.log(2-22);
   console.log(50%100);
+  console.log(2**4);//power (2^4)
+
+  //increment 
+  let counter = 0;
+  counter ++;
+  
+  console.log(counter);
+
+  //decrement
+   let counter1=9;
+   counter1 --;
+   
+   console.log(counter1)
+
+
