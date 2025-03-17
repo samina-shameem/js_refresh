@@ -78,25 +78,38 @@ console.log(youtubChannel);
   console.log(typeof num2);//it shown what is this ,this number.
   
   /*Basic Math */
-  console.log(2+2);
-  console.log(8-2);
-  console.log(100%12);
-  console.log(2*12);
-  console.log(22/6);
-  console.log(2-22);
-  console.log(50%100);
-  console.log(2**4);//power (2^4)
+  //console.log(2+2);
+  //console.log(8-2);
+  //console.log(100%12);
+  //console.log(2*12);
+  //console.log(22/6);
+  //console.log(2-22);
+  //console.log(50%100);
+  //console.log(2**4);//power (2^4)
 
   //increment 
-  let counter = 0;
-  counter ++;
+  //let counter = 0;
+  //counter ++;
   
-  console.log(counter);
+  //console.log(counter);
 
   //decrement
-   let counter1=9;
-   counter1 --;
+   //let counter1=9;
+   //counter1 --;
    
-   console.log(counter1)
+   //console.log(counter1)
+
+   //check first favnum mod secondfavnumber
+
+   //let firstFavNum = 21;
+   //let secondFavNum = 7;
+
+   //console.log(firstFavNum + secondFavNum);
+   //console.log(firstFavNum - secondFavNum);
+   //console.log(firstFavNum * secondFavNum);
+   //console.log(firstFavNum / secondFavNum);
+   //console.log(firstFavNum % secondFavNum);
+   //console.log(firstFavNum ** secondFavNum);
+   
 
 
