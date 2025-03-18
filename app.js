@@ -110,6 +110,20 @@ console.log(youtubChannel);
    //console.log(firstFavNum / secondFavNum);
    //console.log(firstFavNum % secondFavNum);
    //console.log(firstFavNum ** secondFavNum);
+
+   //Boolean-true || false(true or false)
+
+   let isTrue= true;
+   console.log(isTrue);
    
 
+   let isTrue1= false;
+   console.log(isTrue1);
 
+   let isTrue2= NaN;
+   let number1=10;
+   console.log(isTrue2);
+   
+  //undefined NaN
+   let number4= 10;
+   console.log(number4 + undefined);
