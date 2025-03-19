@@ -164,5 +164,13 @@ console.log(notDefined1);
 //3.create variable name(favNumb)& store your favorite number inside.
 //4.now add favNumber with the value of undefined.
 
+//answers
 
+let isJsProgrammingLanguage=true;
+let isJsHard=false;
+let favNumb=36;
+
+console.log(isJsProgrammingLanguage);
+console.log(isJsHard);
+console.log(favNumb + undefined);
  
