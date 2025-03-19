@@ -56,74 +56,113 @@ console.log(youtubChannel);
 /*Use const when you don’t want a variable to change.
   Use let for variables that may change. */
 
-  let name1="samina salam kalathil";
-  let whatDoYouWannaBecomeInYourLife="programmer";
-  let gender="female";
-  let twitterHandle="@samian.twitter";
+let name1 = "samina salam kalathil";
+let whatDoYouWannaBecomeInYourLife = "programmer";
+let gender = "female";
+let twitterHandle = "@samian.twitter";
 
-  console.log(name1);
-  console.log(whatDoYouWannaBecomeInYourLife);
-  console.log(gender);
-  console.log(twitterHandle);
+console.log(name1);
+console.log(whatDoYouWannaBecomeInYourLife);
+console.log(gender);
+console.log(twitterHandle);
 
-  //primitive Types
-  /*number */
-    
-  let num1=10676767653333;//we assign value of negative is just fine, 
-  console.log(num1);
+//primitive Types
+/*number */
 
-  /*type of number */
+let num1 = 10676767653333;//we assign value of negative is just fine, 
+console.log(num1);
 
-  let num2=23.8;//
-  console.log(typeof num2);//it shown what is this ,this number.
-  
-  /*Basic Math */
-  //console.log(2+2);
-  //console.log(8-2);
-  //console.log(100%12);
-  //console.log(2*12);
-  //console.log(22/6);
-  //console.log(2-22);
-  //console.log(50%100);
-  //console.log(2**4);//power (2^4)
+/*type of number */
 
-  //increment 
-  //let counter = 0;
-  //counter ++;
-  
-  //console.log(counter);
+let num2 = 23.8;//
+console.log(typeof num2);//it shown what is this ,this number.
 
-  //decrement
-   //let counter1=9;
-   //counter1 --;
-   
-   //console.log(counter1)
+/*Basic Math */
+//console.log(2+2);
+//console.log(8-2);
+//console.log(100%12);
+//console.log(2*12);
+//console.log(22/6);
+//console.log(2-22);
+//console.log(50%100);
+//console.log(2**4);//power (2^4)
 
-   //check first favnum mod secondfavnumber
+//increment 
+//let counter = 0;
+//counter ++;
 
-   //let firstFavNum = 21;
-   //let secondFavNum = 7;
+//console.log(counter);
 
-   //console.log(firstFavNum + secondFavNum);
-   //console.log(firstFavNum - secondFavNum);
-   //console.log(firstFavNum * secondFavNum);
-   //console.log(firstFavNum / secondFavNum);
-   //console.log(firstFavNum % secondFavNum);
-   //console.log(firstFavNum ** secondFavNum);
+//decrement
+//let counter1=9;
+//counter1 --;
 
-   //Boolean-true || false(true or false)
+//console.log(counter1)
 
-   let isTrue= true;
-   console.log(isTrue);
-   
+//check first favnum mod secondfavnumber
 
-   let isTrue1= false;
-   console.log(isTrue1);
+//let firstFavNum = 21;
+//let secondFavNum = 7;
 
-   let isTrue2= NaN;
-   let number1=10;
-   console.log(isTrue2);
-   
-  //undefined NaN
-   let number4= 10;
-   console.log(number4 + undefined);
+//console.log(firstFavNum + secondFavNum);
+//console.log(firstFavNum - secondFavNum);
+//console.log(firstFavNum * secondFavNum);
+//console.log(firstFavNum / secondFavNum);
+//console.log(firstFavNum % secondFavNum);
+//console.log(firstFavNum ** secondFavNum);
+
+//Boolean-true || false(true or false)
+
+let isTrue = true;
+console.log(isTrue);
+
+
+let isTrue1 = false;
+console.log(isTrue1);
+
+let isTrue2 = NaN;
+let number1 = 10;
+console.log(isTrue2);
+
+//undefined NaN
+let number4 = 10;
+console.log(number4 + undefined);
+
+//FALSY
+/*
+ .falseThe Boolean value false
+ .null → Represents the absence of any value
+ .undefined →  A variable that has been declared but not assigned a value
+ .0 → The number zero
+ .-0 → Negative zero (rare but still falsy)
+ .NaN → "Not-a-Number," usually the result of an invalid mathematical operation
+ .'', "", ´´, (empty quotes) → Strings with no characters
+
+ "In JavaScript, a falsy value is a value that evaluates 
+ to false when used in a Boolean context, 
+ such as an if statement".
+
+    if (!0) {
+       console.log("0 is falsy"); // This will be logged
+      }
+
+   if (!"") {
+     console.log("An empty string is falsy"); // This will be logged
+    }
+
+*/
+
+let notDefined=undefined;
+console.log(notDefined);
+
+let notDefined1=null;
+console.log(notDefined1);
+
+
+//1.create variable name(isJsProgrammingLanguage)& store true as a value.
+//2.create variable name(isJsHard)& store false as a value.
+//3.create variable name(favNumb)& store your favorite number inside.
+//4.now add favNumber with the value of undefined.
+
+
+ 
