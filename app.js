@@ -173,4 +173,27 @@ let favNumb=36;
 console.log(isJsProgrammingLanguage);
 console.log(isJsHard);
 console.log(favNumb + undefined);
+
+//comparison operators
+  //1.Relational operators
+   /*
+    1.> Greater then
+    2.< Less then
+    3.>= Greater then or equal to  
+    4.<= Less then or equal to
+   */
+   //examples
+
+    console.log(10 > 10);   //false
+    console.log(10 < 10);//false
+    console.log(10 >= 10);//true
+    console.log(12 > 10);//true
+    console.log(10 <= 10);//true
+    console.log(12 <= 10);//false
+    console.log(12 >= 10);//true
+    
+    
+    
+
+  //2.Equality Operators
  
