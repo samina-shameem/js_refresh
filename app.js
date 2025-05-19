@@ -197,19 +197,25 @@ console.log(favNumb + undefined);
 
   //2.Equality Operators
   // === strict equality (type+value)
-  // (!==)Strict Non-Equality Operator 
+  // (!==)Strict Non-Equality Operator (type+value)
     /*
        5 !== 5    // false (same value, same type)
        5 !== "5"  // true  (value is same, but type is different)
        true !== 1 // true  (boolean !== number)
 
      */
-  // (!=) lose equality operator
+  // (!=) lose equality operator(value)
      /*
        5 != "5"   // false (after conversion, 5 == 5 → so not unequal)
        0 != false // false (0 == false → so not unequal)
 
      */
+  // lose not equality operator (value)
+     /*
+       5 != "5"   // false (because 5 == "5" after conversion)
+       0 != false // false (0 is considered false)
+     */
+
     
     
  
